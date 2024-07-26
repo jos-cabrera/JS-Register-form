@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="bg-img"></div>
+    <section id="form-window">
+      <form
+        action="Registered.html"
+        onsubmit="return verifyForm()"
+        id="register-form"
+      >
+        <h1 id="title">Register</h1>
+        <label for="email">Email: </label>
+        <input
+          class="input-field"
+          id="email"
+          name="email"
+          type="email"
+          required
+        />
+
+        <label for="password">Password: </label>
+        <input
+          class="input-field"
+          id="password"
+          name="password"
+          type="password"
+          required
+        />
+
+        <label for="retype-password">Retype password: </label>
+        <input
+          class="input-field"
+          id="retype-password"
+          name="retype-password"
+          type="password"
+          required
+        />
+
+        <span id="error"></span>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <script src="validate.js"></script>
+  </body>
+</html>
