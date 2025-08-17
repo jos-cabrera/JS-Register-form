@@ -2,7 +2,7 @@
 
 A register form with js validation
 
-[View demo](https://jos-cabrera.github.io/JS-Register-form)
+[View demo](https://jos-cab.github.io/JS-Register-form)
 
 ## TODO
 
